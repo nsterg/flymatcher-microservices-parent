@@ -12,9 +12,9 @@
 	</parent>
 
 	<scm>
-		<connection>scm:git:https://github.com/nsterg/flymatcher-microservices-parent</connection>
+		<connection>scm:git:git://github.com/nsterg/flymatcher-microservices-parent.git</connection>
 		<url>scm:git:https://github.com/nsterg/flymatcher-microservices-parent</url>
-		<developerConnection>scm:git:https://github.com/nsterg/flymatcher-microservices-parent</developerConnection>
+		<developerConnection>scm:git:git://github.com/nsterg/flymatcher-microservices-parent.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
