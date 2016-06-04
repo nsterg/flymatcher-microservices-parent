@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.flymatcher</groupId>
 	<artifactId>flymatcher-microservice-parent</artifactId>
-	<version>1.0.0_SNAPSHOT</version>
+	<version>1.0.1_SNAPSHOT-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<parent>
