@@ -12,12 +12,23 @@
 	</parent>
 
 	<scm>
-		<connection>scm:git:https://nsterg:qwerty90@github.com/nsterg/flymatcher-microservices-parent</connection>
-		<url>scm:git:https://nsterg:qwerty90@github.com/nsterg/flymatcher-microservices-parent</url>
-		<developerConnection>scm:git:https://nsterg:qwerty90@github.com/nsterg/flymatcher-microservices-parent</developerConnection>
+		<connection>scm:git:https://github.com/nsterg/flymatcher-microservices-parent</connection>
+		<url>scm:git:https://github.com/nsterg/flymatcher-microservices-parent</url>
+		<developerConnection>scm:git:https://github.com/nsterg/flymatcher-microservices-parent</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
+	<distributionManagement>
+		<repository>
+			<id>libs-release-local</id>
+			<url>file:///c:/dev/flymatcher/repo/release</url>
+		</repository>
+		<snapshotRepository>
+			<id>libs-snapshot-local</id>
+			<url>file:///c:/dev/flymatcher/repo/snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
 	<properties>
 		<springfox.version>2.2.2</springfox.version>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
