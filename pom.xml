@@ -12,6 +12,13 @@
 		<version>1.3.2.RELEASE</version>
 	</parent>
 
+	<scm>
+		<connection>scm:git:git@github.com:nsterg/flymatcher-microservices-parent.git</connection>
+		<url>scm:git:git@github.com:nsterg/flymatcher-microservices-parent.git</url>
+		<developerConnection>scm:git:git@github.com:nsterg/flymatcher-microservices-parent.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 	<properties>
 		<springfox.version>2.2.2</springfox.version>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -78,9 +85,6 @@
 		</dependency>
 	</dependencies>
 
-	<scm>
-		<connection>scm:local:C:\Users\nikos\.m2\repository:my_module</connection>
-	</scm>
 	<build>
 		<finalName>${project.artifactId}-${project.version}</finalName>
 		<resources>
