@@ -17,17 +17,11 @@
 		<developerConnection>scm:git:git@github.com:nsterg/flymatcher-microservices-parent.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
-
-	<distributionManagement>
-		<repository>
-			<id>libs-release-local</id>
-			<url>file:///c:/dev/flymatcher/repo/release</url>
-		</repository>
-	</distributionManagement>
 	
 	<properties>
 		<springfox.version>2.2.2</springfox.version>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<myMavenRepo.write.url>https://mymavenrepo.com/repo/XtXFkq99yps1XEblfoBu/</myMavenRepo.write.url>
 	</properties>
 
 	<dependencies>
@@ -90,6 +84,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>${myMavenRepo.write.url}</url>
+        </repository>
+    </distributionManagement>
 
 	<build>
 		<finalName>${project.artifactId}-${project.version}</finalName>
